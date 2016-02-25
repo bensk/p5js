@@ -10,7 +10,7 @@ document.ontouchmove = function(event){
 
 
 function setup() {
-  
+
   createCanvas(windowWidth, windowHeight);
   circleX=random(0, width);
   circleY=random(0, height);
@@ -35,13 +35,13 @@ function draw() {
   //   yDirection=yDirection*-1;
   // }
   println("circleX: "+ circleX, "circleY: "+ circleY);
-  
+
 }
 
 
 function keyPressed() {
   background(255, 255, 255);
-  
+
 }
 
 function windowResized() {
