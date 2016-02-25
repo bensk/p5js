@@ -4,6 +4,10 @@ var xDirection=1;
 var yDirection=1;
 var speed=10.5;
 
+document.ontouchmove = function(event){
+  event.preventDefault();
+}
+
 
 function setup() {
   
