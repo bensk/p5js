@@ -5,6 +5,7 @@ function setup() {
 
 function draw() {
   if (mouseIsPressed) {
+    strokeWeight(abs(mouseY-pmouseY)/(mouseX-pmouseX))
     line(pmouseX, pmouseY, mouseX, mouseY);
   }
 }
