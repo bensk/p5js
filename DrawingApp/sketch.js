@@ -13,3 +13,10 @@ function draw() {
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
+
+function drawMobile() {
+  if (touchIsDown) {
+    // strokeWeight(abs(mouseY-pmouseY)/(mouseX-pmouseX))
+    line(ptouchX, ptouchY, touchX, touchY);
+  }
+}
