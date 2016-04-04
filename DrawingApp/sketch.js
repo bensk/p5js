@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(windowWidth, windowHeight);
 
 }
 
@@ -8,4 +8,8 @@ function draw() {
     // strokeWeight(abs(mouseY-pmouseY)/(mouseX-pmouseX))
     line(pmouseX, pmouseY, mouseX, mouseY);
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
