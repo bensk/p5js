@@ -20,7 +20,7 @@ function draw() {
   text("⏬⏬⏬",10,70)
   var noun = input.value();
   textSize(72)
-  if (noun.length > 2) {
+  if (noun.length >= 2) {
     if (noun.charAt(noun.length - 1) === "s" || noun.charAt(noun.length - 1) === "h" || noun.charAt(noun.length - 1) === "sh" || noun.charAt(noun.length - 1) === "ch") {
       fill('#4FC2A1')
       text(noun + "es", 10, 200)
