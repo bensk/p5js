@@ -5,11 +5,11 @@ function setup() {
 
 function draw() {
   background('white');
-  rect(50,50,mouseX,mouseY);
+  rect(0,0,mouseX,mouseY);
 }
 
 function mousePressed(){
-  fill(255,0,0)
+  fill(random(0,255),random(0,255),random(0,255))
 }
 
 function windowResized() {

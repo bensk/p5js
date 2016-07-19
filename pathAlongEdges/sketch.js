@@ -3,7 +3,7 @@
 x = 0; // x location of square
 y = 0; // y location of square
 
-speed = 5; // speed of square
+speed = 10; // speed of square
 
 // A variable to keep track of the square�s "state."  
 // Depending on the value of its state, it will either move right, down, left, or up.
